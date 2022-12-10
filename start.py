@@ -512,4 +512,5 @@ parag ="You can customise the sizes and color palette according to your preferen
 heading_content = 'wordpress function'
 postdemo =post1(parag,heading_content) 
 print(postdemo)    
+print('yeamin')
   
