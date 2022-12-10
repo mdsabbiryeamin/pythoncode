@@ -502,15 +502,15 @@
 
  #### wordpress post function...///
 
-def post1(postcontent,heading):
-     paragraph = f" <!-- wp:paragraph --><p>{postcontent} <!-- /wp:paragraph --></p>"
-     headingcode =f'<!-- wp:heading --><h2>{heading}</h2><!-- /wp:heading -->'
+# def post1(postcontent,heading):
+#      paragraph = f" <!-- wp:paragraph --><p>{postcontent} <!-- /wp:paragraph --></p>"
+#      headingcode =f'<!-- wp:heading --><h2>{heading}</h2><!-- /wp:heading -->'
 
-     return paragraph,headingcode
+#      return paragraph,headingcode
 
-parag ="You can customise the sizes and color palette according to your preference. We love customised orders! Just let us know your vision and we will be happy to guide you through the process and curate a beautiful artpiece for you."
-heading_content = 'wordpress function'
-postdemo =post1(parag,heading_content) 
-print(postdemo)    
+# parag ="You can customise the sizes and color palette according to your preference. We love customised orders! Just let us know your vision and we will be happy to guide you through the process and curate a beautiful artpiece for you."
+# heading_content = 'wordpress function'
+# postdemo =post1(parag,heading_content) 
+# print(postdemo)    
 
   
