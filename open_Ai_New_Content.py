@@ -1,7 +1,7 @@
 import openai
 
-openai.api_key = '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'
-prompt=input('Enter Your Tital or Keyword :')
+openai.api_key = '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'
+prompt=input('Enter Your Tital for Keyword :')
 
 response = openai.Completion.create(
   model="text-davinci-003",
@@ -15,6 +15,6 @@ response = openai.Completion.create(
 text =response.get('choices')[0].get('text')
 print(text)
 print(len(text))
-print(response)
+
 
 
